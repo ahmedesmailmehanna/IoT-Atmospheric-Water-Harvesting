@@ -15,6 +15,15 @@ An AI-powered IoT system that autonomously collects water from atmospheric humid
 - **Frontend:** React, WebSockets, GPS API
 - **Power:** Solar & Wind Energy
 
+ESP32 devices collect humidity, temperature, and GPS data, sending it to the backend server.
+The Flask server stores live IoT data and optimizes fleet routes using AI.
+React dashboard fetches real-time data, showing water collection status and optimal movement paths.
+The IoT fleet autonomously moves to high-humidity areas, maximizing water collection while running on solar power.
+Scalability & Future Enhancements
+Edge AI on ESP32 → Apply on-device ML models to make real-time decisions.
+Decentralized MQTT Communication → Replace HTTP with MQTT protocol for low-latency data transmission.
+Full Automation.
+
 ### Installation
 1. **Backend**
 ```bash
